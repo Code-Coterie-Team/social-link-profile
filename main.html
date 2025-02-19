@@ -1,61 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./favicon.ico" type="fav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="fav" />
     <title>CSS</title>
     <style>
-        a{
-            text-decoration: none;
-        }
-        .div1{
-            
-            border:1px solid rgba(100,100,100,40%);
-             border-radius: 5px;
-             background:rgba(100,100,100,40%);
-             padding:10px;
-             margin-bottom: 10px;
-        }
+      a {
+        text-decoration: none;
+      }
+      .div1 {
+        border: 1px solid rgba(100, 100, 100, 40%);
+        border-radius: 5px;
+        background: rgba(100, 100, 100, 40%);
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .div1:hover{
+        background-color: hsl(75, 94%, 57%);
+      }
+      .txt:hover{
+        color: black;
+        cursor: pointer;
+      }
     </style>
-</head>
-<body style="background:hsl(0, 0%, 8%) ;display:flex; justify-content :center; align-items:center ">
-    <div style="text-align: center; background:rgba(100,100,100,20%); padding :2%">
-    <main>
-        <div style="width: 6rem; height:6rem ; padding-left:150px ; padding-top:1px;">
-        <img src="./avatar-jessica.jpeg" alt="probfile-picture" width="100%" height="100%" style="border-radius: 50%;"/>
-    </div>
-    <h1 style="color: aliceblue; font-size: 0.9em;"> Jessica Randall </h1>
-    <h2 style="color:hsl(75, 94%, 57%) ; font-size: 0.9em;"> London, United Kingdom </h2> 
-    <p style="color: aliceblue;"> "Front-end developer and avid reader." </p>
-    <div>
-        <div  class="div1" >
-        <a style="color: aliceblue;" href="https://github.com/">Github</a> 
+  </head>
+  <body style=" background: hsl(0, 0%, 8%); display: flex; justify-content: center; align-items: center";
+>
+    |
+    <div
+      style="
+        text-align: center;
+        background: rgba(100, 100, 100, 20%);
+        padding: 2%;
+      "
+    >
+      <main>
+        <div
+          style="
+            width: 6rem;
+            height: 6rem;
+            padding-left: 150px;
+            padding-top: 1px;
+          "
+        >
+          <img
+            src="./avatar-jessica.jpeg"
+            alt="probfile-picture"
+            width="100%"
+            height="100%"
+            style="border-radius: 50%"
+          />
         </div>
-        <div  class="div1" >
-        <a style="color: aliceblue;"  href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW">Frontend Mentor</a><br>
+        <h1 style="color: aliceblue; font-size: 0.9em">Jessica Randall</h1>
+        <h2 style="color: hsl(75, 94%, 57%); font-size: 0.9em">
+          London, United Kingdom
+        </h2>
+        <p style="color: aliceblue">"Front-end developer and avid reader."</p>
+        <div>
+          <div class="div1">
+            <a class="txt" style="color: aliceblue" href="https://github.com/">GitHub</a>
+          </div>
+          <div class="div1">
+            <a class="txt"
+              style="color: aliceblue";
+              href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW"
+              >Frontend Mentor</a>
+          </div>
+          <div class="div1">
+            <a class="txt" style="color: aliceblue" href="https://www.linkedin.com/"
+              >LinkedIn</a>
+          </div>
+          <div class="div1">
+            <a class="txt" style="color: aliceblue" href="https://x.com/">Twitter</a>
+          </div>
+          <div class="div1">
+            <a class="txt" style="color: aliceblue" href="https://www.instagram.com/"
+              >Instagram</a>
+        </div>
+      </main>
+      <div style="padding-top: 80px">
+        <footer>
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/?ref=challenge/  "
+            target="blank"
+            >frontend Mentor</a
+          >
+          .Coded by
+          <a href="https://github.com/" target="blank">Your Name Here</a>
+          .
+        </footer>
+      </div>
     </div>
-    <div  class="div1" >
-        <a style="color: aliceblue;" href="https://www.linkedin.com/">LinkedIn</a><br>
-    </div>
-    <div class="div1" >
-        <a style="color: aliceblue;"  href="https://x.com/">Twitter</a><br>
-    </div>
-    <div class="div1">
-        <a style="color: aliceblue;" href="https://www.instagram.com/">Instagram</a><br>
-    </div>
-    </div>
-    </main>
-    <div style="padding-top: 80px;">
-    <footer> 
-   Challenge by  
-   <a href="https://www.frontendmentor.io/?ref=challenge/  " target="blank">frontend Mentor</a>
-   .Coded by
-   <a href="https://github.com/" target="blank">Your Name Here</a> 
-   .
-    </footer>
-</div>
-</div>
-</body>
+  </body>
 </html>
